@@ -21,5 +21,9 @@ inefficient.
 
 ## Runtime Analysis
 
-What is the big $\Theta$ complexity of your implementation? Add your
-answer, including your reasoning, to this markdown file.
+What is the big $\Theta$ complexity of your implementation? 
+The big $\Theta$  complexity is $\Theta(|V|^2)$  for my implimentation because I
+have an initial for loop that runs the through the number of vertices. Then inside that
+I call visitNode which has a for loop that runs through the vertices. Finally, on the same
+level as the visitNode I have a for loop to find the next best vertex to go to which
+loops through all of the vertices. All in all this gives us $|V|(|V| + |V|) \in |V|^2$.
