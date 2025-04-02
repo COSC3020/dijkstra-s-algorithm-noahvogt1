@@ -1,5 +1,9 @@
 # Dijkstra's Algorithm
 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I did not know how to do dijkstras algorithm because its been a few weeks, so I watched a video from FelixTechTips on how dijkstras works. Other than that it was all me
+
 Recall the pseudocode for Dijkstra's algorithm:
 - initialize the dist to each vertex to $\infty$, source to 0
 - while there are unmarked vertices left in the graph
